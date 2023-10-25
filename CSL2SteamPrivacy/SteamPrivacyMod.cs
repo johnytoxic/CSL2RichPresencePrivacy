@@ -1,4 +1,6 @@
-﻿namespace CSL2SteamPrivacy
+﻿using HarmonyLib;
+
+namespace CSL2SteamPrivacy
 {
     public class SteamPrivacyMod
     {
