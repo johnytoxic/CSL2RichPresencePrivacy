@@ -76,6 +76,7 @@
         <Reference Include="System.Xml"/>
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="RichPresenceUpdateSystemPatch.cs" />
         <Compile Include="SteamPrivacyMod.cs" />
         <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>
