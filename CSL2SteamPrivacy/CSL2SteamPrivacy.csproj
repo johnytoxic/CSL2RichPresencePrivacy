@@ -33,6 +33,12 @@
         <WarningLevel>4</WarningLevel>
     </PropertyGroup>
     <ItemGroup>
+        <Reference Include="Colossal.PSI.Steamworks">
+          <HintPath>..\Vendor\Colossal.PSI.Steamworks.dll</HintPath>
+        </Reference>
+        <Reference Include="Game">
+          <HintPath>..\Vendor\Game.dll</HintPath>
+        </Reference>
         <Reference Include="System"/>
         <Reference Include="System.Core"/>
         <Reference Include="System.Data"/>
