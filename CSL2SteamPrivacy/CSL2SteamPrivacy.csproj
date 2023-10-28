@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.1</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
@@ -13,10 +13,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Properties\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Lib.Harmony" Version="2.3.0-prerelease.2" />
   </ItemGroup>
 
@@ -26,6 +22,9 @@
     </Reference>
     <Reference Include="Game">
       <HintPath>..\Vendor\Game.dll</HintPath>
+    </Reference>
+    <Reference Include="MelonLoader">
+      <HintPath>..\Vendor\MelonLoader.dll</HintPath>
     </Reference>
   </ItemGroup>
 

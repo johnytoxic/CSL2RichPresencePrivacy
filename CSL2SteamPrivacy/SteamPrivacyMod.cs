@@ -1,12 +1,12 @@
-﻿using HarmonyLib;
+﻿using MelonLoader;
 
 namespace CSL2SteamPrivacy
 {
-    public class SteamPrivacyMod
+    public class SteamPrivacyMod : MelonMod
     {
-        public static void Setup()
+        public override void OnInitializeMelon()
         {
-            var harmony = new Harmony("net.johnytoxic.CSL2SteamPrivacy");
+            var harmony = new HarmonyLib.Harmony("net.johnytoxic.CSL2SteamPrivacy");
             harmony.PatchAll();
         }
     }
