@@ -1,0 +1,9 @@
+{
+    "name": "Steam_Privacy",
+    "version_number": "1.0.0",
+    "website_url": "https://github.com/johnytoxic/CSL2RichPresencePrivacy",
+    "description": "Disable the rich presence in your Steam friends list",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100"
+    ]
+}
